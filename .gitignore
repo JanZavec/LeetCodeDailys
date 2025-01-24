@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/LeetCodeDailys/.vs/LeetCodeDailys
+/LeetCodeDailys/LeetCodeDailys/bin/Debug/net8.0
+/LeetCodeDailys/LeetCodeDailys/obj
