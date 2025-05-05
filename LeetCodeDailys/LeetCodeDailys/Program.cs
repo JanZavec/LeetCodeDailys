@@ -1,5 +1,7 @@
 ﻿
 
+using LeetCodeDailys;
+
 namespace Leetcode.Dailys;
 
 class Program
@@ -23,7 +25,7 @@ class Program
 
     public static int Main(string[] args)
     {
-        TwoSum([2, 7, 11, 15], 9);
+        Problems.MergeAlternately("abc", "pqr");
         return 0;
     }
 }
