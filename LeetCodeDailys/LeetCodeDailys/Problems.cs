@@ -17,5 +17,10 @@
             }
             return string.Join("",letters);
         }
+
+        public static int[] BuildArray(int[] nums)
+        {
+            return [.. nums.Select(num => nums[num])];
+        }
     }
 }
