@@ -13,14 +13,9 @@
             }
             if (word2.Length > word1.Length)
             {
-                letters.AddRange(word2.Substring(word1.Length));
+                letters.AddRange(word2[word1.Length..]);
             }
             return string.Join("",letters);
-        }
-
-        public static int[] BuildArray(int[] nums)
-        {
-            return [.. nums.Select(num => nums[num])];
         }
     }
 }
